@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b35b37e957.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .firstheader{
+            height: 100px;
+            width: 100%;
+            background-color: #ddebf3;
+        }
+        .logo{
+            height: 30px;
+            padding: 20px;
+        }
+        .menue li{
+            font-size: 25px;
+            position: absolute;
+            top: 30px;
+            right: 50px;
+          
+            list-style: none;
+        }
+        .menue a{
+            text-decoration: none;
+            color: rgb(22, 12, 12);
+        }
+        .header2{
+            background-color: rgb(101, 101, 221);
+            height: 40px;
+            
+        }
+        .flag{
+            height: 30px;
+            position: absolute;
+            left: 300px;
+            margin: 5px;
+        }
+        .textflag{
+            color: white;
+            position: absolute;
+            right: 300px;
+            margin: 10px;
+        }
+        .textflag a{
+            color:white;
+        }
+        .promos{
+            height: 40px;
+            background-color: #ddebf3;
+        }
+        .promos a{
+       text-decoration: none;
+       margin: 30px;
+    
+        }
+        .promtex{
+            position: absolute;
+            left: 100px;
+            top: 140px;
+            color: rgb(21, 197, 197);
+            
+        }
+        .bac{
+            border-top: 1px solid rgb(21, 197, 197);
+        }
+        .hhtex{
+            font-weight: bold;
+            text-align: center;
+            font-size: 30px;
+        }
+        .sub{
+            text-align: center;
+            font-size: 20px;
+            color:rgba(100, 106, 110, 0.541);
+        }
+        .input{
+        
+            position: absolute;
+            right: 490px;
+            
+        
+        }
+        .in{
+           height: 30px;
+           border-right:0px ;
+           
+        }
+        .In3{
+            height: 30px;
+            border-left:0px ;
+            color:red;
+        }
+        .waa{
+            background-color:red;
+            border-radius: 10px;
+            padding: 10px;
+            border:none;
+        }.texs{
+            position: absolute;
+           right: 490px;
+           margin: 50px;
+        }.in1{
+            color:rgb(23, 97, 97);
+            padding: 10px;
+        }
+        .in1 :hover{
+            background-color:rgb(7, 71, 71);
+        }
+        .in4{
+            padding: 10px;
+        }
+        .boxs{
+            display: flex;
+        }
+        .box1{
+            height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: white;
+            position: absolute;
+            left: 100px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10PX 20PX #d8e1e7 ;
+            
+        }
+        .box1 a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(29, 28, 28);
+            font-size: 25px;
+        }
+        .box{
+            height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: white;
+            position: absolute;
+            left: 400px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10PX 20PX #d8e1e7 ;
+
+        }
+        .box a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(29, 28, 28);
+            font-size: 25px;
+        }
+        .st{
+        background-color: rgb(236, 55, 55);
+        border:none;
+        border-radius: 5px;
+        padding: 5px;
+        }
+        .box3{
+            height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: white;
+            position: absolute;
+            left: 700px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10PX 20PX #d8e1e7 ;
+
+        }
+        .box3 a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(29, 28, 28);
+            font-size: 25px;
+        }
+        .box4{
+        height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: white;;
+            position: absolute;
+            left:960px;
+            border-radius: 5px;
+            
+            text-align: center;
+            box-shadow: 0 0 10PX 20PX #d8e1e7 ;
+        }
+        .box14 a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(29, 28, 28);
+            font-size: 25px;
+        }
+        box4 a:hover{
+            background-color: red;
+        }
+        .rrr{
+            margin: 40px;
+            position: absolute;
+            right: 400px;
+            padding:8px;
+            background-color: rgb(245, 40, 40);
+            border:none;
+        }
+         .qoral{
+            text-align: center;
+            margin: 350px;
+        }
+        .hhhhh{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .qqqq{
+            color: #9d9e9e;
+        }
+        .icon img{
+            height: 320px;
+        }
+        .texicon{
+        font-size: 30px;
+        }
+        .subtex{
+    color: #c6ccd1;
+        }
+        .boxs1{
+            display: flex;
+            margin: 60px;
+        }
+        .par{
+            height: 250px;
+            width: 310px;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 1PX 2PX #d8e1e7 ;
+            padding: 10px;
+            position: absolute;
+            left:90px;
+            top:1550px;
+
+        }
+        .par1{
+            height: 250px;
+            width: 310px;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 1PX 2PX #d8e1e7 ;
+            padding: 10px;
+            position: absolute;
+            left: 450px;
+            top:1550px;
+        }
+        .par2{
+            height: 250px;
+            width: 310px;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 1PX 2PX #d8e1e7 ;
+            position: absolute;
+            right: 200px;
+            top:1550px;
+        }
+        .images{
+            display: flex;
+            margin-bottom: 200px;
+        }
+        .img1{
+            height: 200px;
+            position: absolute;
+            left:100px;
+        }
+        .img2{
+            height: 200px;
+            position: absolute;
+            left:600px;
+            
+        }
+        .img3{
+            height: 200px;
+            position: absolute;
+            right: 100px;
+        }
+        .ooo{
+            background-color: #eef5f5;
+            height: 500px;
+        }
+        .hhtex1{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .int3{
+            padding: 10px;
+            border-left: none;
+        }
+        .boxs1{
+            display: flex;
+        }
+        .pn1{
+            height: 190px;
+            width: 210px;
+        
+            position:absolute;
+            left: 50px;
+            background-color: rgb(146, 28, 28);;
+            position: absolute;
+            left:660px;
+            border-radius: 5px;
+             
+        }
+        .pn{
+            height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: rgb(107, 27, 27);;
+            position: absolute;
+            left:660px;
+            border-radius: 5px; 
+        }
+        .pn1{
+            height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: white;;
+            position: absolute;
+            left:660px;
+            border-radius: 5px;
+        }
+        .pn2{
+            height: 190px;
+            width: 210px;
+            margin-top: 50px;
+            position:absolute;
+            left: 50px;
+            background-color: rgb(158, 43, 43);;
+            position: absolute;
+            left:660px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div class="firstheader">
+
+     <img src="logo1.svg" class="logo">
+     <div class="menue">
+        <ul>
+     <li>
+        <a href="#">Domain</a>
+        <a href="#">Hosting</a>
+        <a href="#">Wordpress</a>
+        <a href="#">Email</a>
+        <a href="#">Apps</a>
+        <a href="#">Securatity</a>
+        <a href="#">Transfer to us</a>
+        <a href="#"> Help center</a>
+        <a href="#">Account</a>
+
+     </li>
+    </ul>
+    </div>
+                          
+    </div>
+    <div class="header2">
+        <img src="flag.svg" class="flag">
+        <div class="textflag">
+        We stand with our friends and colleagues in Ukraine. To support Ukraine in their time of need visit this <a href="#">page.</a>
+        </div>
+
+    </div>
+    <div class="promos">
+  <a href="#">Promos </a>
+  <div class="promtex">
+    99 Cent Domain Names
+  </div>
+    </div>
+    <div class="bac">
+        <img src="bac.svg">
+        <div class="hhtex">
+            99 Cent Domain Names
+            </div>
+           <div class="sub">
+             Grab a domain deal and the extra bargains you need 
+           </div>
+           <div class="input">
+            <input type="tex" placeholder="Find your new 99 cent domain name  "class="in">
+            <input type="text" value="Beast mode" class="In3">
+            
+            <input type="submit" value="searching" class="waa">
+
+           </div>
+           <div class="texs"> 
+            Use the promo code <input type="submit"value="99Special" class="in1"> at the checkout to get your 99 cent domain
+           </div>
+         
+    </div><br><br><br>
+    <div class="boxs">
+    <div class="box1">
+        <input type="submit"value="98 % of" class="st"><br><br>
+  <a href="#">   .Store</a><br><br>
+  The TLD built for selling<br><br><br>
+  <del> $48.98/yr </del><br>
+  $0.99/yr
+  
+    </div>
+    <div class="box">
+        <input type="submit"value="89 % of" class="st"><br><br>
+        <a href="#">  .link</a><br><br>
+        Be the .link they need<br><br><br>
+        <del>  $8.98/yr</del><br>
+            $0.99/yr
+        
+          </div>
+          <div class="box3">
+            <input type="submit"value="92 % of" class="st"><br><br>
+            <a href="#">  . XYZ</a><br><br>
+            Have the last word with a .xyz<br><br><br>
+               <del> $11.98/yr</del><br>
+                $0.99/yr
+            
+    </div>
+    <div class="box4">
+        <input type="submit"value="80 % of" class="st"><br><br>
+        <a href="#">  . cyou</a><br><br>
+        Stand out online<br><br><br>
+             <del> $4.98/yr </del><br>
+             $0.99/yr
+          <div class="btn">
+            <input type="submit" value=" Descover all 99 cent domain" class="rrr">
+         </div>
+         </div>
+         
+</div>
+<div class="qoral">
+    <div class="hhhhh">
+     Everything you need to get your idea online<br>
+    </div>
+    <div class="qqqq">
+    Calling all bargain hunters! Use our coupon to pick up a 99 cent domain and collect everything
+     you need to get your idea online today. Discover a variety of hosting plans to suit every budget,
+     and affordable tools to help your website thrive.
+    </div><br><br><br>
+    <div class="icon">
+         <img src="icon.svg">
+         <div class="texicon">
+         Mini prices, major benefits
+        </div>
+        <div class="subtex">
+            Get a domain, hosting, and a logo for just $5.47
+        </div>
+    </div>
+ <div class="boxs1">
+ <div class="par">
+    <i class="fa-thin fa-hospital"></i>Hosting Plan<br><br>
+        Whether you run a startup or established <br>
+        company, it’s easy to find a hosting plan to suit <br>your needs and budget.<br><br>
+        Starting at<br>
+        $4.48/mo<br><br><br>
+        <a href="">View plans</a>
+        
+    </div>
+
+
+</div>
+<div class="par1">
+    <i class="fa-thin fa-hospital"></i>Email service<br><br>
+        You will get a 2-month free trial of Private Email <br>
+        with your website domain. It’s fast, secure, <br>
+        and reliable.<br><br>
+        Free trial<br><br><br>
+    <a href="">veiw plans</a>
+    </div>
+
+
+</div>
+<div class="par2">
+    <i class="fa-thin fa-hospital"></i>free logo maker<br><br>
+        Choose your favorite font, icon, and download <br>
+        your free logo to use on your website <br>and beyond.<br>
+        Free<br><br><br>
+    <a href="">veiw plans</a>
+</div>
+<div class="images">
+<img src="icon2.svg"  class="img1">
+
+    Stay safe and secure
+
+<p>We’re not just offering a coupon and a great offer. With every registered domain,<br>
+    you’ll get free domain privacy protection for life, <br>
+    and free DNSSEC security. That means your personal information is hidden from the public<br>
+     and your website data will be protected from fraudulent activity.</p>
+
+
+<img src="icon3.svg" class="img2">
+    Get guidance and support
+
+Enjoy peace of mind with our friendly 24/7 customer support, extensive Knowledgebase,<br>
+ and informative blog packed full of useful advice for<br>
+  new and established businesses.
+<img src="icon4.svg" class="img3">
+    Save time and money with redirects
+
+Don’t have time to set up a multi-page website? With URL forwarding, it’s easy to direct your customers <br>
+to a Shopify account,<br>
+ Instagram page, or any other online destination of your choosing.
+</div>
+</div>
+</div>
+
+<div class="ooo">
+    <div class="butns"> 
+        <div class="hhtex1">
+            99 Cent Domain Names
+            </div>
+          
+           <div class="input">
+            <input type="tex" placeholder="Find your new 99 cent domain name "class="int3">
+            <input type="button" value="Beast mode" class="Int">
+            <div class="texs1"> <br><br>
+                Use the promo code <input type="submit"value="99Special" class="in1"> at the checkout to get your 99 cent domain
+               </div>
+               <div class="boxs1">
+               <div class="pn">
+                <input type="submit"value="92 % of" class="st"><br><br>
+                <a href="#">  . XYZ</a><br><br>
+                Have the last word with a .xyz<br><br><br>
+                   <del> $11.98/yr</del><br>
+                    $0.99/yr
+                
+        </div>
+        <div class="bn1">
+            <input type="submit"value="92 % of" class="st"><br><br>
+            <a href="#">  . biz</a><br><br>
+            Have the last word with a .xyz<br><br><br>
+               <del> $11.98/yr</del><br>
+                $0.99/yr
+            
+    </div>
+    <div class="pn2">
+        <input type="submit"value="92 % of" class="st"><br><br>
+        <a href="#">  . XYZ</a><br><br>
+        Have the last word with a .xyz<br><br><br>
+           <del> $11.98/yr</del><br>
+            $0.99/yr
+        
+</div>
+<div class="pn3">
+    <input type="submit"value="92 % of" class="st"><br><br>
+    <a href="#">  . XYZ</a><br><br>
+    Have the last word with a .xyz<br><br><br>
+       <del> $11.98/yr</del><br>
+        $0.99/yr
+</div>
+</div>
+</body>
+</html>
